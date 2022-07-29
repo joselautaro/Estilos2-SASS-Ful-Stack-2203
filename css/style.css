@@ -1,5 +1,5 @@
 header {
-  background-color: #ffff0a;
+  background-color: #ffe100;
   position: sticky;
   width: 100%;
   top: 0; }
@@ -62,7 +62,7 @@ main {
         height: 200px; }
 
 footer {
-  background-color: #ffff0a;
+  background-color: #ffe100;
   padding: 50px; }
   footer p {
     text-align: center;
