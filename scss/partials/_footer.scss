@@ -1,0 +1,11 @@
+@import '../globals/variables';
+
+footer{
+    background-color: $background-color-header-footer;
+    padding: 50px;
+    p{
+        text-align: center;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}

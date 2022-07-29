@@ -1,0 +1,35 @@
+@import '../globals/variables';
+
+header{
+    background-color: $background-color-header-footer;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    nav{
+        text-align: center;
+        padding: 20px;
+        .logo{
+            color: rgb(97, 97, 170);
+            font-weight: bold;
+            &:hover{
+                text-decoration: none;
+            }
+            .foto-logo{
+                width: 90px;
+                height: 45px;
+            }
+        }
+        a{
+          color: rgb(89, 94, 99);
+          margin: 25px; 
+          text-decoration: none;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 20px;
+          &:hover{
+            color: rgb(19, 12, 12);
+            text-decoration: underline 2px solid;
+          } 
+        }
+
+    }
+}
